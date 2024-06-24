@@ -22,7 +22,11 @@ module prng (
 
     // Generate (the next) random number
     always_ff @(posedge clk) begin
-        state <= (A * state + C) % M;
+        if (seed != state) begin
+            state <= seed;
+        end else begin
+            state <= (A * state + C) % M;
+        end
         rand_num <= state;
     end
 endmodule
