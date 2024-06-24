@@ -2,7 +2,7 @@
 #include "Vprng.h"
 
 int main(int argc, char **argv) {
-    Verilated::commandArgs(argc, argv); /
+    Verilated::commandArgs(argc, argv);
     Vprng* top = new Vprng;
 
     // Simulate for 20 clock cycles
