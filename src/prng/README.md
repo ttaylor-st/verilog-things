@@ -50,5 +50,5 @@ todo
 
 ## license
 
-prng follows the same license as its parent project, view [LICENSE](../LICENSE)
-for more information.
+prng follows the same license as its parent project, view
+[LICENSE](../../LICENSE) for more information.
