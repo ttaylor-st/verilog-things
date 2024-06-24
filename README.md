@@ -6,7 +6,7 @@ why am i doing this
 
 ## things
 
-- [`helloworld](./src/helloworld.sv) - a simple hello world module
+- [`helloworld`](./src/hello_world.sv) - a simple hello world module
 - [`prng`](./src/prng) - a simple pseudo-random number generator (PRNG) based
 on a linear feedback shift register (LFSR).
 
